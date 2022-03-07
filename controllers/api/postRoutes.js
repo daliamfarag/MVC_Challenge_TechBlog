@@ -63,6 +63,7 @@ router.get("/:id", (req, res) => {
 
 router.post("/", withAuth, (req, res) => {
   // expects { post_title: String, post_body: String }
+  console.log("router.post")
   Post.create({
     post_title: req.body.post_title,
     post_body: req.body.post_body,

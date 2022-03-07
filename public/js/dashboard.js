@@ -41,6 +41,14 @@ const handleEditInfoSubmit = e => {
 const handleCreatePostSubmit = e => {
   e.preventDefault()
   // submit post request
+  //queryselector (titleinput & values)
+  //queryselector (textinput & values)
+  //post using fetch function to URL/API/post
+  //send title and text in the body  
+  //post_title: req.body.post_title, (titel input)
+    //post_body: req.body.post_body, (text input)
+    
+    //SIMILAR TO EDIT (USE PUT)
 }
 
 editInfoForm.addEventListener("submit", handleEditInfoSubmit)
